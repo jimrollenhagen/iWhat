@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3802F36C15B283C0000139B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802F36B15B283C0000139B9 /* UIKit.framework */; };
+		3802F36E15B283C0000139B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802F36D15B283C0000139B9 /* Foundation.framework */; };
+		3802F37015B283C0000139B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802F36F15B283C0000139B9 /* CoreGraphics.framework */; };
+		3802F37615B283C0000139B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3802F37415B283C0000139B9 /* InfoPlist.strings */; };
+		3802F37815B283C0000139B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802F37715B283C0000139B9 /* main.m */; };
+		3802F37C15B283C0000139B9 /* iWhatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802F37B15B283C0000139B9 /* iWhatAppDelegate.m */; };
+		3802F37F15B283C0000139B9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3802F37D15B283C0000139B9 /* MainStoryboard_iPhone.storyboard */; };
+		3802F38215B283C0000139B9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3802F38015B283C0000139B9 /* MainStoryboard_iPad.storyboard */; };
+		3802F38515B283C0000139B9 /* iWhatFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802F38415B283C0000139B9 /* iWhatFirstViewController.m */; };
+		3802F38715B283C0000139B9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3802F38615B283C0000139B9 /* first.png */; };
+		3802F38915B283C0000139B9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3802F38815B283C0000139B9 /* first@2x.png */; };
+		3802F38C15B283C0000139B9 /* iWhatSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802F38B15B283C0000139B9 /* iWhatSecondViewController.m */; };
+		3802F38E15B283C0000139B9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3802F38D15B283C0000139B9 /* second.png */; };
+		3802F39015B283C0000139B9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3802F38F15B283C0000139B9 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3802F36715B283C0000139B9 /* iWhat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWhat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3802F36B15B283C0000139B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3802F36D15B283C0000139B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3802F36F15B283C0000139B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3802F37315B283C0000139B9 /* iWhat-Info.plist */ = {isa = PBXFileReference; path = "iWhat-Info.plist"; sourceTree = "<group>"; };
+		3802F37515B283C0000139B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3802F37715B283C0000139B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3802F37915B283C0000139B9 /* iWhat-Prefix.pch */ = {isa = PBXFileReference; path = "iWhat-Prefix.pch"; sourceTree = "<group>"; };
+		3802F37A15B283C0000139B9 /* iWhatAppDelegate.h */ = {isa = PBXFileReference; path = iWhatAppDelegate.h; sourceTree = "<group>"; };
+		3802F37B15B283C0000139B9 /* iWhatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWhatAppDelegate.m; sourceTree = "<group>"; };
+		3802F37E15B283C0000139B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3802F38115B283C0000139B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3802F38315B283C0000139B9 /* iWhatFirstViewController.h */ = {isa = PBXFileReference; path = iWhatFirstViewController.h; sourceTree = "<group>"; };
+		3802F38415B283C0000139B9 /* iWhatFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWhatFirstViewController.m; sourceTree = "<group>"; };
+		3802F38615B283C0000139B9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		3802F38815B283C0000139B9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		3802F38A15B283C0000139B9 /* iWhatSecondViewController.h */ = {isa = PBXFileReference; path = iWhatSecondViewController.h; sourceTree = "<group>"; };
+		3802F38B15B283C0000139B9 /* iWhatSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWhatSecondViewController.m; sourceTree = "<group>"; };
+		3802F38D15B283C0000139B9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		3802F38F15B283C0000139B9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3802F36415B283C0000139B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3802F36C15B283C0000139B9 /* UIKit.framework in Frameworks */,
+				3802F36E15B283C0000139B9 /* Foundation.framework in Frameworks */,
+				3802F37015B283C0000139B9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3802F35C15B283C0000139B9 = {
+			isa = PBXGroup;
+			children = (
+				3802F37115B283C0000139B9 /* iWhat */,
+				3802F36A15B283C0000139B9 /* Frameworks */,
+				3802F36815B283C0000139B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3802F36815B283C0000139B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3802F36715B283C0000139B9 /* iWhat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3802F36A15B283C0000139B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3802F36B15B283C0000139B9 /* UIKit.framework */,
+				3802F36D15B283C0000139B9 /* Foundation.framework */,
+				3802F36F15B283C0000139B9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3802F37115B283C0000139B9 /* iWhat */ = {
+			isa = PBXGroup;
+			children = (
+				3802F37A15B283C0000139B9 /* iWhatAppDelegate.h */,
+				3802F37B15B283C0000139B9 /* iWhatAppDelegate.m */,
+				3802F37D15B283C0000139B9 /* MainStoryboard_iPhone.storyboard */,
+				3802F38015B283C0000139B9 /* MainStoryboard_iPad.storyboard */,
+				3802F38315B283C0000139B9 /* iWhatFirstViewController.h */,
+				3802F38415B283C0000139B9 /* iWhatFirstViewController.m */,
+				3802F38615B283C0000139B9 /* first.png */,
+				3802F38815B283C0000139B9 /* first@2x.png */,
+				3802F38A15B283C0000139B9 /* iWhatSecondViewController.h */,
+				3802F38B15B283C0000139B9 /* iWhatSecondViewController.m */,
+				3802F38D15B283C0000139B9 /* second.png */,
+				3802F38F15B283C0000139B9 /* second@2x.png */,
+				3802F37215B283C0000139B9 /* Supporting Files */,
+			);
+			path = iWhat;
+			sourceTree = "<group>";
+		};
+		3802F37215B283C0000139B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3802F37315B283C0000139B9 /* iWhat-Info.plist */,
+				3802F37415B283C0000139B9 /* InfoPlist.strings */,
+				3802F37715B283C0000139B9 /* main.m */,
+				3802F37915B283C0000139B9 /* iWhat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3802F36615B283C0000139B9 /* iWhat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3802F39315B283C0000139B9 /* Build configuration list for PBXNativeTarget "iWhat" */;
+			buildPhases = (
+				3802F36315B283C0000139B9 /* Sources */,
+				3802F36415B283C0000139B9 /* Frameworks */,
+				3802F36515B283C0000139B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iWhat;
+			productName = iWhat;
+			productReference = 3802F36715B283C0000139B9 /* iWhat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3802F35E15B283C0000139B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iWhat;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3802F36115B283C0000139B9 /* Build configuration list for PBXProject "iWhat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3802F35C15B283C0000139B9;
+			productRefGroup = 3802F36815B283C0000139B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3802F36615B283C0000139B9 /* iWhat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3802F36515B283C0000139B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3802F37615B283C0000139B9 /* InfoPlist.strings in Resources */,
+				3802F37F15B283C0000139B9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				3802F38215B283C0000139B9 /* MainStoryboard_iPad.storyboard in Resources */,
+				3802F38715B283C0000139B9 /* first.png in Resources */,
+				3802F38915B283C0000139B9 /* first@2x.png in Resources */,
+				3802F38E15B283C0000139B9 /* second.png in Resources */,
+				3802F39015B283C0000139B9 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3802F36315B283C0000139B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3802F37815B283C0000139B9 /* main.m in Sources */,
+				3802F37C15B283C0000139B9 /* iWhatAppDelegate.m in Sources */,
+				3802F38515B283C0000139B9 /* iWhatFirstViewController.m in Sources */,
+				3802F38C15B283C0000139B9 /* iWhatSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3802F37415B283C0000139B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3802F37515B283C0000139B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3802F37D15B283C0000139B9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3802F37E15B283C0000139B9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3802F38015B283C0000139B9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3802F38115B283C0000139B9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3802F39115B283C0000139B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3802F39215B283C0000139B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3802F39415B283C0000139B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWhat/iWhat-Prefix.pch";
+				INFOPLIST_FILE = "iWhat/iWhat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3802F39515B283C0000139B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWhat/iWhat-Prefix.pch";
+				INFOPLIST_FILE = "iWhat/iWhat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3802F36115B283C0000139B9 /* Build configuration list for PBXProject "iWhat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3802F39115B283C0000139B9 /* Debug */,
+				3802F39215B283C0000139B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3802F39315B283C0000139B9 /* Build configuration list for PBXNativeTarget "iWhat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3802F39415B283C0000139B9 /* Debug */,
+				3802F39515B283C0000139B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3802F35E15B283C0000139B9 /* Project object */;
+}
