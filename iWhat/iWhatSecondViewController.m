@@ -7,12 +7,24 @@
 //
 
 #import "iWhatSecondViewController.h"
+#import "WhatAPI.h"
 
 @interface iWhatSecondViewController ()
+
+@property (nonatomic, strong) WhatAPI *api;
 
 @end
 
 @implementation iWhatSecondViewController
+
+@synthesize api = _api;
+
+- (WhatAPI *)api {
+    if (!_api) {
+        _api = [[WhatAPI alloc] init];
+    }
+    return _api;
+}
 
 - (void)viewDidLoad
 {
@@ -33,6 +45,11 @@
     } else {
         return YES;
     }
+}
+
+- (IBAction)doSomethingElse {
+    NSLog(@"Doing something else!");
+    //[self.api testRequestInbox];
 }
 
 @end

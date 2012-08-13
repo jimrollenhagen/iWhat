@@ -7,12 +7,23 @@
 //
 
 #import "iWhatFirstViewController.h"
+#import "WhatAPI.h"
 
 @interface iWhatFirstViewController ()
+
+@property (nonatomic, strong) WhatAPI *api;
 
 @end
 
 @implementation iWhatFirstViewController
+@synthesize api = _api;
+
+- (WhatAPI *)api {
+    if (!_api) {
+        _api = [[WhatAPI alloc] init];
+    }
+    return _api;
+}
 
 - (void)viewDidLoad
 {
@@ -33,6 +44,10 @@
     } else {
         return YES;
     }
+}
+- (IBAction)loginToSite {
+    NSLog(@"Logging in to What.CD");
+    //[self.api loginUser];
 }
 
 @end

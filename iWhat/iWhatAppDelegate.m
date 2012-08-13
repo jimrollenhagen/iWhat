@@ -7,14 +7,33 @@
 //
 
 #import "iWhatAppDelegate.h"
+#import "WhatAPI.h"
+#import "WhatAPIUser.h"
+#import <Restkit/Restkit.h>
 
 @implementation iWhatAppDelegate
 
 @synthesize window = _window;
+@synthesize masx = _masx;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // workaround what.cd's API returning text/plain
+    Class<RKParser> parser = [[RKParserRegistry sharedRegistry] parserClassForMIMEType:@"application/json"];
+    [[RKParserRegistry sharedRegistry] setParserClass:parser forMIMEType:@"text/plain"];
+    
+    // initialize and login to the api
+    [RKClient clientWithBaseURLString:@"https://ssl.what.cd"];
+    WhatAPI *api = [[WhatAPI alloc] init];
+    [api loginUser];
+    [api testRequestInbox];
+    
+    //[self.masx loadUser];
+    self.masx = [WhatAPIUser initUserWithUserID:154962];
+    NSLog(@"%@", self.masx.username);
+    
     return YES;
 }
 							

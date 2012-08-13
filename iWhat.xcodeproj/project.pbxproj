@@ -21,29 +21,99 @@
 		3802F38C15B283C0000139B9 /* iWhatSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802F38B15B283C0000139B9 /* iWhatSecondViewController.m */; };
 		3802F38E15B283C0000139B9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3802F38D15B283C0000139B9 /* second.png */; };
 		3802F39015B283C0000139B9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3802F38F15B283C0000139B9 /* second@2x.png */; };
+		3802F3C515B2892A000139B9 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802F3A215B2861A000139B9 /* libRestKit.a */; };
+		3802F3C715B2893C000139B9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802F3BB15B2879D000139B9 /* CFNetwork.framework */; };
+		3802F3C815B28942000139B9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802F3BD15B287A7000139B9 /* CoreData.framework */; };
+		3802F3CA15B28948000139B9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802F3C915B28948000139B9 /* Security.framework */; };
+		3802F3CB15B28950000139B9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802F3BF15B287AE000139B9 /* MobileCoreServices.framework */; };
+		3802F3CC15B28956000139B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802F3C115B287B8000139B9 /* SystemConfiguration.framework */; };
+		3802F3CE15B28961000139B9 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802F3CD15B28961000139B9 /* libxml2.dylib */; };
+		3802F3D015B28965000139B9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802F3CF15B28965000139B9 /* QuartzCore.framework */; };
+		3802F3E315B2A695000139B9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802F3E215B2A695000139B9 /* LoginViewController.m */; };
+		3802F40015B3C914000139B9 /* WhatAPIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802F3FF15B3C914000139B9 /* WhatAPIUser.m */; };
+		3802F40415B3C9E4000139B9 /* WhatAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802F40315B3C9E4000139B9 /* WhatAPI.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3802F3A115B2861A000139B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3802F39915B2861A000139B9 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		3802F3A315B2861A000139B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3802F39915B2861A000139B9 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		3802F3A515B2861A000139B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3802F39915B2861A000139B9 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		3802F3A715B2861A000139B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3802F39915B2861A000139B9 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		3802F3A915B2861A000139B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3802F39915B2861A000139B9 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		3802F3B915B28769000139B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3802F39915B2861A000139B9 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3802F36715B283C0000139B9 /* iWhat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWhat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3802F36B15B283C0000139B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3802F36D15B283C0000139B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3802F36F15B283C0000139B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3802F37315B283C0000139B9 /* iWhat-Info.plist */ = {isa = PBXFileReference; path = "iWhat-Info.plist"; sourceTree = "<group>"; };
+		3802F37315B283C0000139B9 /* iWhat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iWhat-Info.plist"; sourceTree = "<group>"; };
 		3802F37515B283C0000139B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3802F37715B283C0000139B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3802F37915B283C0000139B9 /* iWhat-Prefix.pch */ = {isa = PBXFileReference; path = "iWhat-Prefix.pch"; sourceTree = "<group>"; };
-		3802F37A15B283C0000139B9 /* iWhatAppDelegate.h */ = {isa = PBXFileReference; path = iWhatAppDelegate.h; sourceTree = "<group>"; };
+		3802F37915B283C0000139B9 /* iWhat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iWhat-Prefix.pch"; sourceTree = "<group>"; };
+		3802F37A15B283C0000139B9 /* iWhatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWhatAppDelegate.h; sourceTree = "<group>"; };
 		3802F37B15B283C0000139B9 /* iWhatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWhatAppDelegate.m; sourceTree = "<group>"; };
 		3802F37E15B283C0000139B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3802F38115B283C0000139B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3802F38315B283C0000139B9 /* iWhatFirstViewController.h */ = {isa = PBXFileReference; path = iWhatFirstViewController.h; sourceTree = "<group>"; };
+		3802F38315B283C0000139B9 /* iWhatFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWhatFirstViewController.h; sourceTree = "<group>"; };
 		3802F38415B283C0000139B9 /* iWhatFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWhatFirstViewController.m; sourceTree = "<group>"; };
 		3802F38615B283C0000139B9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		3802F38815B283C0000139B9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		3802F38A15B283C0000139B9 /* iWhatSecondViewController.h */ = {isa = PBXFileReference; path = iWhatSecondViewController.h; sourceTree = "<group>"; };
+		3802F38A15B283C0000139B9 /* iWhatSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWhatSecondViewController.h; sourceTree = "<group>"; };
 		3802F38B15B283C0000139B9 /* iWhatSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWhatSecondViewController.m; sourceTree = "<group>"; };
 		3802F38D15B283C0000139B9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		3802F38F15B283C0000139B9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		3802F39915B2861A000139B9 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		3802F3BB15B2879D000139B9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3802F3BD15B287A7000139B9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3802F3BF15B287AE000139B9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3802F3C115B287B8000139B9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3802F3C915B28948000139B9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3802F3CD15B28961000139B9 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		3802F3CF15B28965000139B9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3802F3E115B2A695000139B9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3802F3E215B2A695000139B9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3802F3FE15B3C914000139B9 /* WhatAPIUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhatAPIUser.h; path = WhatAPI/WhatAPIUser.h; sourceTree = "<group>"; };
+		3802F3FF15B3C914000139B9 /* WhatAPIUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhatAPIUser.m; path = WhatAPI/WhatAPIUser.m; sourceTree = "<group>"; };
+		3802F40215B3C9E4000139B9 /* WhatAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhatAPI.h; path = WhatAPI/WhatAPI.h; sourceTree = "<group>"; };
+		3802F40315B3C9E4000139B9 /* WhatAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhatAPI.m; path = WhatAPI/WhatAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +121,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3802F3D015B28965000139B9 /* QuartzCore.framework in Frameworks */,
+				3802F3CE15B28961000139B9 /* libxml2.dylib in Frameworks */,
+				3802F3CC15B28956000139B9 /* SystemConfiguration.framework in Frameworks */,
+				3802F3CB15B28950000139B9 /* MobileCoreServices.framework in Frameworks */,
+				3802F3CA15B28948000139B9 /* Security.framework in Frameworks */,
+				3802F3C815B28942000139B9 /* CoreData.framework in Frameworks */,
+				3802F3C715B2893C000139B9 /* CFNetwork.framework in Frameworks */,
+				3802F3C515B2892A000139B9 /* libRestKit.a in Frameworks */,
 				3802F36C15B283C0000139B9 /* UIKit.framework in Frameworks */,
 				3802F36E15B283C0000139B9 /* Foundation.framework in Frameworks */,
 				3802F37015B283C0000139B9 /* CoreGraphics.framework in Frameworks */,
@@ -63,6 +141,14 @@
 		3802F35C15B283C0000139B9 = {
 			isa = PBXGroup;
 			children = (
+				3802F3CF15B28965000139B9 /* QuartzCore.framework */,
+				3802F3CD15B28961000139B9 /* libxml2.dylib */,
+				3802F3C915B28948000139B9 /* Security.framework */,
+				3802F3C115B287B8000139B9 /* SystemConfiguration.framework */,
+				3802F3BF15B287AE000139B9 /* MobileCoreServices.framework */,
+				3802F3BD15B287A7000139B9 /* CoreData.framework */,
+				3802F3BB15B2879D000139B9 /* CFNetwork.framework */,
+				3802F39915B2861A000139B9 /* RestKit.xcodeproj */,
 				3802F37115B283C0000139B9 /* iWhat */,
 				3802F36A15B283C0000139B9 /* Frameworks */,
 				3802F36815B283C0000139B9 /* Products */,
@@ -90,6 +176,7 @@
 		3802F37115B283C0000139B9 /* iWhat */ = {
 			isa = PBXGroup;
 			children = (
+				3802F40115B3C91A000139B9 /* WhatAPI */,
 				3802F37A15B283C0000139B9 /* iWhatAppDelegate.h */,
 				3802F37B15B283C0000139B9 /* iWhatAppDelegate.m */,
 				3802F37D15B283C0000139B9 /* MainStoryboard_iPhone.storyboard */,
@@ -103,6 +190,8 @@
 				3802F38D15B283C0000139B9 /* second.png */,
 				3802F38F15B283C0000139B9 /* second@2x.png */,
 				3802F37215B283C0000139B9 /* Supporting Files */,
+				3802F3E115B2A695000139B9 /* LoginViewController.h */,
+				3802F3E215B2A695000139B9 /* LoginViewController.m */,
 			);
 			path = iWhat;
 			sourceTree = "<group>";
@@ -116,6 +205,29 @@
 				3802F37915B283C0000139B9 /* iWhat-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3802F39A15B2861A000139B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3802F3A215B2861A000139B9 /* libRestKit.a */,
+				3802F3A415B2861A000139B9 /* RestKitTests.octest */,
+				3802F3A615B2861A000139B9 /* RestKit.framework */,
+				3802F3A815B2861A000139B9 /* RestKitFrameworkTests.octest */,
+				3802F3AA15B2861A000139B9 /* RestKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3802F40115B3C91A000139B9 /* WhatAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3802F40215B3C9E4000139B9 /* WhatAPI.h */,
+				3802F40315B3C9E4000139B9 /* WhatAPI.m */,
+				3802F3FE15B3C914000139B9 /* WhatAPIUser.h */,
+				3802F3FF15B3C914000139B9 /* WhatAPIUser.m */,
+			);
+			name = WhatAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +244,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				3802F3BA15B28769000139B9 /* PBXTargetDependency */,
 			);
 			name = iWhat;
 			productName = iWhat;
@@ -157,12 +270,56 @@
 			mainGroup = 3802F35C15B283C0000139B9;
 			productRefGroup = 3802F36815B283C0000139B9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3802F39A15B2861A000139B9 /* Products */;
+					ProjectRef = 3802F39915B2861A000139B9 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3802F36615B283C0000139B9 /* iWhat */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3802F3A215B2861A000139B9 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 3802F3A115B2861A000139B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3802F3A415B2861A000139B9 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 3802F3A315B2861A000139B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3802F3A615B2861A000139B9 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 3802F3A515B2861A000139B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3802F3A815B2861A000139B9 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 3802F3A715B2861A000139B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3802F3AA15B2861A000139B9 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = 3802F3A915B2861A000139B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3802F36515B283C0000139B9 /* Resources */ = {
@@ -190,10 +347,21 @@
 				3802F37C15B283C0000139B9 /* iWhatAppDelegate.m in Sources */,
 				3802F38515B283C0000139B9 /* iWhatFirstViewController.m in Sources */,
 				3802F38C15B283C0000139B9 /* iWhatSecondViewController.m in Sources */,
+				3802F3E315B2A695000139B9 /* LoginViewController.m in Sources */,
+				3802F40015B3C914000139B9 /* WhatAPIUser.m in Sources */,
+				3802F40415B3C9E4000139B9 /* WhatAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3802F3BA15B28769000139B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 3802F3B915B28769000139B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3802F37415B283C0000139B9 /* InfoPlist.strings */ = {
@@ -275,7 +443,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iWhat/iWhat-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "iWhat/iWhat-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -286,7 +459,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iWhat/iWhat-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "iWhat/iWhat-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -311,6 +489,7 @@
 				3802F39515B283C0000139B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
